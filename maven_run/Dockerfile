@@ -1,4 +1,5 @@
 FROM alpine:latest
+MAINTAINER dima.aronov
 
 RUN apk update && apk add wget tar  
 
